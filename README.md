@@ -5,7 +5,7 @@
 * DFS
 * BFS
 
-## Examples
+## Example
 
 ```javascript
     // the map is represented by a two dimentinal array
