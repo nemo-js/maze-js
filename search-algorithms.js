@@ -28,10 +28,10 @@ var SearchAlgorithms = (function () {
     
     function getPossibleStates(p) {
         return [
-            { x: p.x + 1, y: p.y }, //deksia
-            { x: p.x, y: p.y + 1 }, //katw
-            { x: p.x - 1, y: p.y }, //arister
-            { x: p.x, y: p.y - 1 },  //panw
+            { x: p.x + 1, y: p.y }, 
+            { x: p.x, y: p.y + 1 },
+            { x: p.x - 1, y: p.y },
+            { x: p.x, y: p.y - 1 }
         ];
     }
     
